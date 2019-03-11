@@ -12,6 +12,7 @@ $(document).ready(function () {
         var div = document.createElement("div");
         var txt = document.createTextNode(Data.mensaje);
         div.setAttribute("class", Data.tipo_mensaje);
+        //append
         div.appendChild(txt);
         var chat = document.getElementById("chat-box");
         chat.style.color="red";
